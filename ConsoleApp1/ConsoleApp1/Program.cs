@@ -10,7 +10,7 @@ namespace ConsoleApp1
             ConsoleWriteRandomArr(randomArr);
             SnailOnTree();
         }
-        public static int[] CreateRandomArr()
+        static int[] CreateRandomArr()
         {
             int[] randomArr = new int[6];
 
@@ -21,7 +21,7 @@ namespace ConsoleApp1
             return randomArr;
         }
 
-        public static void ConsoleWriteRandomArr(int[] randomArr)
+        static void ConsoleWriteRandomArr(int[] randomArr)
         {
             for (int i = 0; i < randomArr.Length; i++)
             {
@@ -30,7 +30,7 @@ namespace ConsoleApp1
 
         }
 
-        public static void SnailOnTree()
+        static void SnailOnTree()
         {
             int onTree = 56;
             for (int i = 0; i < 30; i++)
